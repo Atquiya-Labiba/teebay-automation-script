@@ -20,16 +20,24 @@ cd teebay-automation-script
 ```
 
 ### Create virtual environment and activate it
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
 ### Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### Run all tests
+```bash
 pytest -v
+```
 
 ### Run a specific test
+```bash
 pytest testCases/test_login.py -v
+```
 
 
